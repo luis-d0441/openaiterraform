@@ -1,0 +1,25 @@
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+terraform.tfvars
+terraform.tfvars.json
+
+# MacOS
+.DS_Store
+
+# Linux
+*.swp
+
+# Logs
+*.log
+
+# SSH Keys (si llegaras a generar alguno local)
+*.pem
+*.key
